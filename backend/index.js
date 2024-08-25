@@ -149,10 +149,7 @@ app.delete("/consultas/:id", async (req, res) => {
   await db.read();
   const consultaId = req.params.id;
 
-  console.log("ID para deletar:", consultaId);
-
   const filteredConsultas = db.data.consultas.filter(consulta => consulta.id !== consultaId);
-  console.log("Consultas após filtro:", filteredConsultas);
 
   db.data.consultas = filteredConsultas;
 
