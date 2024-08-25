@@ -15,7 +15,6 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/cadastro" element={<CadastroUsuarios />} />
         <Route path="/home" element={<Home />} />
-        {/* Outras rotas */}
       </Routes>
     </ConsultasProvider>
   );
