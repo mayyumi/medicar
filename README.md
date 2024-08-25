@@ -3,6 +3,10 @@
 ## 📖 Descrição do Projeto
 O Medicar é um sistema completo de marcação de consultas médicas, desenvolvido para facilitar o agendamento de consultas por pacientes, oferecendo uma interface amigável e intuitiva para a seleção de especialidades, médicos, datas e horários. Este projeto é dividido em duas partes: o frontend, responsável pela interface do usuário, e o backend, que gerencia as regras de negócios e a persistência de dados.
 
+## 👨‍💻 Usuário Padrão para Logar:
+ - Usuário: intmed 
+ - Senha: challenge
+
 ## 🖥️ Frontend
 
 ### 🎨 Layout e Especificações Técnicas
